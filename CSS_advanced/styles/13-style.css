@@ -28,7 +28,6 @@ html {
 
 a[href] {
     color: var(--text-color);
-    text-decoration: none;
 }
 
 a[href]:visited {

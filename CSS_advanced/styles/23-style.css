@@ -182,6 +182,10 @@ a:active {
     color: var(--text-color);
 }
 
+.social-link {
+    display: block;
+}
+
 .social-link,
 .social-link svg {
     display: block;

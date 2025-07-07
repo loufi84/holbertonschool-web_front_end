@@ -50,7 +50,7 @@
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
-    --button-hover-text-decorator: none;
+    --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
 }
 

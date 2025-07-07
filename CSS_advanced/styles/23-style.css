@@ -182,11 +182,9 @@ a:active {
     color: var(--text-color);
 }
 
-.social-link {
+.social-link,
+.social-link svg {
     display: block;
-}
-
-.social-link:has(svg) {
     fill: var(--text-color);
 }
 

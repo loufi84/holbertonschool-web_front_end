@@ -26,6 +26,23 @@ html {
     font-size: 62.5%;
 }
 
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: var(--color-light-grey);
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -63,24 +80,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .visually-hidden {
     display: none;
-}
-
-a[href] {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-a[href]:visited {
-    font-style: italic;
-    text-decoration: none;
-}
-
-a[href]:hover {
-    text-decoration: underline;
-    text-decoration: none;
-}
-
-a[href]:active {
-    background-color: var(--color-light-grey);
-    text-decoration: none;
 }

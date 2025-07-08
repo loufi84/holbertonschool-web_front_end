@@ -213,14 +213,14 @@ a:active {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--color-white);
     width: 0;
     height: 20%;
+    background-color: var(--color-white);
 }
 
 .nav .nav-item:hover .nav-link::before {
-    background-color: var(--color-primary);
     width: 100%;
+    background-color: var(--color-primary);
 }
 
 .header {

@@ -214,7 +214,6 @@ a:active {
     top: 0;
     left: 0;
     width: 0;
-    height: 20%;
     background-color: var(--color-white);
     line-height: 0.2rem;
 }

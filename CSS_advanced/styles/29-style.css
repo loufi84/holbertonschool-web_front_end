@@ -222,6 +222,7 @@ a:active {
 .nav .nav-item:hover .nav-link::before {
     width: 100%;
     background-color: var(--color-primary);
+    line-height: 0.2rem;
 }
 
 .header {
